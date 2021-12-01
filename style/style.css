@@ -5,7 +5,7 @@
 body {
     font-family: Roboto Condensed;
     padding: 10px;
-    background: #f1f1f1;
+    background: #b59fe2;
 }
 
 /* Header/Blog Title */
@@ -51,9 +51,30 @@ body {
 /* Right column */
 .rightcolumn {
     float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
+    width: 20%;
+    background-color: #a88be2;
+    margin: 8px 0;
+    padding: 15px 20px;
+}
+input[type=text],[type=password], select {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #3c3838;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* Fake image */
@@ -81,8 +102,8 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
-    margin-top: 20px;
+    background: #9370DB;
+    margin-top: 210px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -111,7 +132,6 @@ canvas{
 }
 input[type=button]{
     background-color:black;
-    border: outline 2px red;
     color: white;
     margin:4px;
     padding:10px;
@@ -165,4 +185,52 @@ section#nr2{
     margin:30px
 }
 
+th, td {
+    padding: 15px;
+    width:20%;
+    text-align: left;
+}
+tr:hover {background-color: #9370DB;}
 
+
+
+.dbl-border {
+    list-style: none;
+    margin: 0;
+}
+.dbl-border li {
+    margin: 10px 0;
+    position: relative;
+}
+.dbl-border a {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border-left: 6px solid #ABC7EA;
+    display: block;
+    padding-left: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    position: relative;
+    transition: 0.3s linear;
+}
+.dbl-border a:before {
+    content: "";
+    width: 6px;
+    height: 70%;
+    background: #EE997C;
+    position: absolute;
+    top: 15%;
+    left: -12px;
+}
+.dbl-border li:before {
+    content: "";
+    width: 6px;
+    height: 40%;
+    background: #EFDD89;
+    position: absolute;
+    top: 30%;
+    left: -12px;
+}
+.dbl-border a:hover {background: #D4D8D9;}

@@ -8,6 +8,8 @@
         <a href="?leht=puzzle">Puzzle</a>
         <a href="?leht=valuutakalk">Kalk</a>
         <a href="?leht=pildid">14.ülesanne</a>
+        <a href="?leht=LisamineNaitamine">Loomad</a>
+        <a href="content/puuLeht.php">puu</a>
     </div>
 
 
